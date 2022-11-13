@@ -16,10 +16,8 @@ if(flag){
     let metti = prompt("1--si , 0--no");
     if(metti){
         arraymail[(arraymail.length)]=emialinsert;
-        console.log(`Nuova lista e-mail accetabile e: `);
-        for(let i = 0 ; i<arraymail.length;i++)
-            console.log(arraymail[i]);
-        
     }
-
+    console.log(`Lista e-mail accetabile e: `);
+    for(let i = 0 ; i<arraymail.length;i++)
+        console.log(arraymail[i]);
 }
