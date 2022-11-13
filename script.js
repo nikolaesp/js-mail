@@ -17,7 +17,8 @@ if(flag){
     if(metti){
         arraymail[(arraymail.length)]=emialinsert;
     }
-    console.log(`Lista e-mail accetabile e: `);
-    for(let i = 0 ; i<arraymail.length;i++)
-        console.log(arraymail[i]);
+
 }
+console.log(`Lista e-mail accetabile e: `);
+for(let i = 0 ; i<arraymail.length;i++)
+    console.log(arraymail[i]);
